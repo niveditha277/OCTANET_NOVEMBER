@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     margin: 0;
     font-family: 'Arial', sans-serif;
@@ -7,7 +6,6 @@ body {
     color: #333;
 }
 
-/* Notification Bar */
 .notification {
     position: fixed;
     top: 20px;
@@ -21,7 +19,7 @@ body {
     z-index: 10;
 }
 
-/* Navigation Bar */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -52,7 +50,6 @@ nav .nav-links a:hover {
     color: #333;
 }
 
-/* Hero Section */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -89,7 +86,6 @@ nav .nav-links a:hover {
     background: #ff8a33;
 }
 
-/* Floating Images */
 .floating-images {
     position: absolute;
     top: 50px;
@@ -111,7 +107,6 @@ nav .nav-links a:hover {
     transform: scale(1.1);
 }
 
-/* Products Section */
 .products {
     padding: 50px;
     text-align: center;

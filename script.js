@@ -24,7 +24,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Parallax effect for floating images
 window.addEventListener('scroll', () => {
     const images = document.querySelectorAll('.float-img');
     images.forEach((img, index) => {
